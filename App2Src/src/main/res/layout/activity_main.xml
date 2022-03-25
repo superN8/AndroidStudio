@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="180dp"
+        tools:layout_editor_absoluteY="47dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="113dp"
+        android:layout_height="102dp"
+        app:srcCompat="@color/design_default_color_primary_dark"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="140dp"
+        tools:srcCompat="@tools:sample/date/hhmm" />
+</android.support.constraint.ConstraintLayout>
